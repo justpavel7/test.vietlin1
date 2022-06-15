@@ -5,6 +5,7 @@ user_number = int(input())
 
 while numbers != user_number:
     if numbers < user_number:
-        print("Your number is less")
-    elif user_number < numbers:
         print("Your number is greater")
+    elif user_number < numbers:
+        print("Your number is less")
+    user_number = int(input())
